@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 
 
 # 1. Укажи свои данные подключения
-DATABASE_URL="postgresql://postgres.lyfqjutojeqnyvlqennc:Rootroot123!@aws-0-eu-west-1.pooler.supabase.com:6543/postgres"
+DATABASE_URL="postgresql://rolemaster_db_user:UAIemjqivUMMy8ijuMDUDqHLfpDzb9Ef@dpg-d2520i1r0fns73dko0mg-a/rolemaster_db"
 # Заменить на твои реальные значения
 # Пример:
 # DATABASE_URL = "postgresql://postgres:1234@localhost/hr_roles"

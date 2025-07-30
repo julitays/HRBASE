@@ -48,7 +48,7 @@ class KPI(Base):
     role_id: Mapped[int] = mapped_column(ForeignKey("roles.id", ondelete="CASCADE"))
     metric_name: Mapped[str] = mapped_column(Text)
     frequency: Mapped[Optional[str]] = mapped_column(String(100), nullable=True)
-recommendations: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
+    recommendations: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
 
     role: Mapped["Role"] = relationship(back_populates="kpis")
 
